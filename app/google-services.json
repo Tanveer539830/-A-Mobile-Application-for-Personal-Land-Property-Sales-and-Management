@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "271523815812",
+    "firebase_url": "https://real-estate-final-year-project-default-rtdb.firebaseio.com",
+    "project_id": "real-estate-final-year-project",
+    "storage_bucket": "real-estate-final-year-project.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:271523815812:android:9a22cf6bd90543db9d7dd1",
+        "android_client_info": {
+          "package_name": "com.example.finalyearproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "271523815812-hpbqp5oujin83bed9h8dbb225f4oqofh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASDWUUL3kJ4ExL4Kh20K8m8sPf8aTF8eA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "271523815812-hpbqp5oujin83bed9h8dbb225f4oqofh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="180dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/drawerbg"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/headerProfileIv"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:src="@drawable/tanveer_image"
+        android:scaleType="centerCrop"
+        style="@style/Widget.MaterialComponents.ShapeableImageView"
+        app:shapeAppearanceOverlay="@style/imageStyle_Circle"/> <!-- Ensure this style exists -->
+    <TextView
+        android:id="@+id/headerNameTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tanveer Hussain"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/headerEmailTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="tanveer@test.com"
+        android:textColor="@color/white" />
+</LinearLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home_black"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/person_black"
+            android:title="My Profile" />
+        <item
+            android:id="@+id/nav_my_ads"
+            android:icon="@drawable/ad_icon"
+            android:title="My Published Ads" />
+        <item
+            android:id="@+id/nav_fav"
+            android:icon="@drawable/fav_yes_black"
+            android:title="Favorites" />
+        <item
+            android:id="@+id/nav_chat"
+            android:icon="@drawable/chat_black"
+            android:title="Chats" />
+    </group>
+
+    <item android:title="Others">
+        <menu>
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/logout_icon__1_"
+                android:title="Logout" />
+        </menu>
+    </item>
+</menu>
